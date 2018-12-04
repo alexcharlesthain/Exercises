@@ -7,11 +7,13 @@ import java.util.stream.Collectors;
 public class StreamExercise3 {
 
 	public static void main(String[] args) {
+		
+		
 		List<String> myNameList = Arrays.asList("Hello", "It's", "Alex");
 		
-		String helloName = myNameList.stream().collect(Collectors.joining(" "));
+		String NameList = myNameList.stream().collect(Collectors.joining(" "));
 		
-		System.out.println(myNameList);
+		System.out.println(NameList);
 
 	}
 
